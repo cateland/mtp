@@ -1,7 +1,16 @@
 {
   "name": "zone 0",
   "color": "#2ab1ac",
-  "items": [],
+  "items": [
+    {
+      "objectId": "managed_0",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_managed_0",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
