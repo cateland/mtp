@@ -5,8 +5,19 @@
       "table1": 0,
       "conditionsMode": "AND",
       "type": "LEFT",
-      "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "col_18",
+            "table": 0
+          },
+          "column2": {
+            "name": "col_2",
+            "table": 1
+          },
+          "type": "EQ"
+        }
+      ]
     }
   ],
   "selectedColumns": [
