@@ -11,14 +11,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "managed_1",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_managed_1",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "managed_2",
       "objectType": "DATASET"
     },
