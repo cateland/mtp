@@ -13,6 +13,14 @@
     {
       "objectId": "managed_7",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "managed_9",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_managed_9",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
