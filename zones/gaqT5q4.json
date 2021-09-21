@@ -1,7 +1,16 @@
 {
   "name": "Outputs",
   "color": "#C13344",
-  "items": [],
+  "items": [
+    {
+      "objectId": "managed_10",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_managed_10",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},

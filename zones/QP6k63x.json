@@ -21,14 +21,6 @@
     {
       "objectId": "compute_managed_9",
       "objectType": "RECIPE"
-    },
-    {
-      "objectId": "managed_10",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_managed_10",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
