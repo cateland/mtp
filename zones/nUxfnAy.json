@@ -3,14 +3,6 @@
   "color": "#2ab1ac",
   "items": [
     {
-      "objectId": "managed_0",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_managed_0",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "managed_2",
       "objectType": "DATASET"
     },
