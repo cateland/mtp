@@ -1,6 +1,7 @@
 {
   "type": "UploadedFiles",
   "managed": false,
+  "formatType": "csv",
   "checklists": {
     "checklists": []
   },
@@ -21,17 +22,47 @@
       "rules": []
     }
   },
+  "formatParams": {
+    "style": "excel",
+    "charset": "utf-8",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 20,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
   "partitioning": {
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1632235113113
+    "lastModifiedOn": 1632235113513
   },
   "creationTag": {
     "versionNumber": 0,
@@ -41,9 +72,98 @@
     "lastModifiedOn": 1632235113113
   },
   "tags": [],
-  "params": {},
+  "params": {
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "col_0",
+        "type": "string"
+      },
+      {
+        "name": "col_1",
+        "type": "string"
+      },
+      {
+        "name": "col_2",
+        "type": "string"
+      },
+      {
+        "name": "col_3",
+        "type": "string"
+      },
+      {
+        "name": "col_4",
+        "type": "string"
+      },
+      {
+        "name": "col_5",
+        "type": "string"
+      },
+      {
+        "name": "col_6",
+        "type": "string"
+      },
+      {
+        "name": "col_7",
+        "type": "string"
+      },
+      {
+        "name": "col_8",
+        "type": "string"
+      },
+      {
+        "name": "col_9",
+        "type": "string"
+      },
+      {
+        "name": "col_10",
+        "type": "string"
+      },
+      {
+        "name": "col_11",
+        "type": "string"
+      },
+      {
+        "name": "col_12",
+        "type": "string"
+      },
+      {
+        "name": "col_13",
+        "type": "string"
+      },
+      {
+        "name": "col_14",
+        "type": "string"
+      },
+      {
+        "name": "col_15",
+        "type": "string"
+      },
+      {
+        "name": "col_16",
+        "type": "string"
+      },
+      {
+        "name": "col_17",
+        "type": "string"
+      },
+      {
+        "name": "col_18",
+        "type": "string"
+      },
+      {
+        "name": "col_19",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
