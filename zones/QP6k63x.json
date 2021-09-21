@@ -23,12 +23,12 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "compute_managed_10",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "managed_10",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_managed_10",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
