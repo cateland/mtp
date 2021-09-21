@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1632235121612
+    "lastModifiedOn": 1632235121680
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,88 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "col_0",
+        "type": "bigint"
+      },
+      {
+        "name": "col_1",
+        "type": "bigint"
+      },
+      {
+        "name": "col_2",
+        "type": "bigint"
+      },
+      {
+        "name": "col_3",
+        "type": "bigint"
+      },
+      {
+        "name": "col_4",
+        "type": "bigint"
+      },
+      {
+        "name": "col_5",
+        "type": "bigint"
+      },
+      {
+        "name": "col_6",
+        "type": "bigint"
+      },
+      {
+        "name": "col_7",
+        "type": "bigint"
+      },
+      {
+        "name": "col_8",
+        "type": "bigint"
+      },
+      {
+        "name": "col_9",
+        "type": "bigint"
+      },
+      {
+        "name": "col_10",
+        "type": "bigint"
+      },
+      {
+        "name": "col_11",
+        "type": "bigint"
+      },
+      {
+        "name": "col_12",
+        "type": "bigint"
+      },
+      {
+        "name": "col_13",
+        "type": "bigint"
+      },
+      {
+        "name": "col_14",
+        "type": "bigint"
+      },
+      {
+        "name": "col_15",
+        "type": "bigint"
+      },
+      {
+        "name": "col_16",
+        "type": "bigint"
+      },
+      {
+        "name": "col_17",
+        "type": "bigint"
+      },
+      {
+        "name": "col_18",
+        "type": "bigint"
+      },
+      {
+        "name": "col_19",
+        "type": "bigint"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
