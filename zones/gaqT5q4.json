@@ -37,6 +37,14 @@
     {
       "objectId": "managed_8",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "managed_6",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_managed_6",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],

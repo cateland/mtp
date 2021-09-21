@@ -33,14 +33,6 @@
     {
       "objectId": "compute_managed_5",
       "objectType": "RECIPE"
-    },
-    {
-      "objectId": "managed_6",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_managed_6",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
