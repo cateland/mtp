@@ -66,7 +66,7 @@
     "main": {
       "items": [
         {
-          "ref": "managed_1",
+          "ref": "stuff2",
           "appendMode": false
         }
       ]
@@ -74,11 +74,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1632235119168
+    "lastModifiedOn": 1633526028832
   },
   "creationTag": {
     "versionNumber": 0,
