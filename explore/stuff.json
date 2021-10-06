@@ -46,16 +46,7 @@
         "latestPartitionsN": 1,
         "ordering": {
           "enabled": true,
-          "rules": [
-            {
-              "columnName": "col_1",
-              "asc": true
-            },
-            {
-              "columnName": "col_2",
-              "asc": true
-            }
-          ]
+          "rules": []
         },
         "samplingMethod": "HEAD_SEQUENTIAL",
         "maxRecords": 10000,
@@ -64,7 +55,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 5
+      "_refreshTrigger": 8
     },
     "vizSampling": {
       "autoRefreshSample": false,
