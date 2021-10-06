@@ -69,6 +69,10 @@
     {
       "objectId": "compute_managed_9",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "stuff",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
