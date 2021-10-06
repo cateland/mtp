@@ -45,10 +45,10 @@
         "partitionSelectionMethod": "ALL",
         "latestPartitionsN": 1,
         "ordering": {
-          "enabled": false,
+          "enabled": true,
           "rules": [
             {
-              "columnName": "test",
+              "columnName": "col_0",
               "asc": true
             }
           ]
@@ -60,7 +60,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 5
+      "_refreshTrigger": 9
     },
     "vizSampling": {
       "autoRefreshSample": false,
