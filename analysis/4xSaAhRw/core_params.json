@@ -6,7 +6,28 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "col_0": 100,
+      "col_1": 100,
+      "col_2": 100,
+      "col_3": 100,
+      "col_4": 100,
+      "col_5": 100,
+      "col_6": 100,
+      "col_7": 100,
+      "col_8": 100,
+      "col_9": 100,
+      "col_10": 100,
+      "col_11": 100,
+      "col_12": 100,
+      "col_13": 100,
+      "col_14": 100,
+      "col_15": 100,
+      "col_16": 100,
+      "col_17": 100,
+      "col_18": 100,
+      "col_19": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -35,13 +56,15 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 1
     },
     "vizSampling": {
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -119,6 +142,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
@@ -144,11 +168,11 @@
   ],
   "name": "Analyze input_2",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1633528164013
+    "lastModifiedOn": 1633529080495
   },
   "creationTag": {
     "versionNumber": 0,
