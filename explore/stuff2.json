@@ -81,7 +81,7 @@
         "type": "grouped_columns",
         "variant": "normal",
         "name": "New chart",
-        "userEditedName": false,
+        "userEditedName": true,
         "genericDimension0": [],
         "genericDimension1": [],
         "facetDimension": [],
@@ -148,6 +148,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
