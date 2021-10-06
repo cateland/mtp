@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1633526022975
+    "lastModifiedOn": 1633526027330
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,88 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "col_0",
+        "type": "string"
+      },
+      {
+        "name": "col_1",
+        "type": "string"
+      },
+      {
+        "name": "col_2",
+        "type": "string"
+      },
+      {
+        "name": "col_3",
+        "type": "string"
+      },
+      {
+        "name": "col_4",
+        "type": "string"
+      },
+      {
+        "name": "col_5",
+        "type": "string"
+      },
+      {
+        "name": "col_6",
+        "type": "string"
+      },
+      {
+        "name": "col_7",
+        "type": "string"
+      },
+      {
+        "name": "col_8",
+        "type": "string"
+      },
+      {
+        "name": "col_9",
+        "type": "string"
+      },
+      {
+        "name": "col_10",
+        "type": "string"
+      },
+      {
+        "name": "col_11",
+        "type": "string"
+      },
+      {
+        "name": "col_12",
+        "type": "string"
+      },
+      {
+        "name": "col_13",
+        "type": "string"
+      },
+      {
+        "name": "col_14",
+        "type": "string"
+      },
+      {
+        "name": "col_15",
+        "type": "string"
+      },
+      {
+        "name": "col_16",
+        "type": "string"
+      },
+      {
+        "name": "col_17",
+        "type": "string"
+      },
+      {
+        "name": "col_18",
+        "type": "string"
+      },
+      {
+        "name": "col_19",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
