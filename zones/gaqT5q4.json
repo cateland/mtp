@@ -73,6 +73,10 @@
     {
       "objectId": "stuff",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "stuff2",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
