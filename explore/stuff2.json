@@ -76,12 +76,40 @@
   },
   "charts": [
     {
-      "copySelectionFromScript": true,
+      "copySelectionFromScript": false,
       "engineType": "LINO",
+      "refreshableSelection": {
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": true,
+            "rules": [
+              {
+                "columnName": "col_0",
+                "asc": true
+              }
+            ]
+          },
+          "samplingMethod": "COLUMN_BASED",
+          "maxRecords": 100000,
+          "targetRatio": 0.02,
+          "column": "col_0",
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        },
+        "autoRefreshSample": false,
+        "_refreshTrigger": 1
+      },
       "def": {
         "type": "grouped_columns",
         "variant": "normal",
-        "name": "New chart",
+        "name": "test chart",
         "userEditedName": true,
         "genericDimension0": [],
         "genericDimension1": [],
