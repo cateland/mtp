@@ -40,7 +40,18 @@
         "timeout": -1,
         "filter": {
           "distinct": false,
-          "enabled": false
+          "enabled": true,
+          "uiData": {
+            "mode": "\u0026\u0026",
+            "conditions": [
+              {
+                "input": "col_0",
+                "operator": "contains",
+                "col": "col_1",
+                "num": 0.0
+              }
+            ]
+          }
         },
         "partitionSelectionMethod": "ALL",
         "latestPartitionsN": 1,
@@ -54,8 +65,8 @@
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
-      "autoRefreshSample": false,
-      "_refreshTrigger": 3
+      "autoRefreshSample": true,
+      "_refreshTrigger": 6
     },
     "vizSampling": {
       "autoRefreshSample": false,
