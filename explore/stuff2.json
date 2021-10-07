@@ -53,14 +53,15 @@
             }
           ]
         },
-        "samplingMethod": "HEAD_SEQUENTIAL",
-        "maxRecords": 10000,
+        "samplingMethod": "COLUMN_BASED",
+        "maxRecords": 100000,
         "targetRatio": 0.02,
+        "column": "col_0",
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 9
+      "_refreshTrigger": 11
     },
     "vizSampling": {
       "autoRefreshSample": false,
