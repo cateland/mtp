@@ -54,14 +54,14 @@
           ]
         },
         "samplingMethod": "COLUMN_BASED",
-        "maxRecords": 100000,
+        "maxRecords": 5000,
         "targetRatio": 0.02,
         "column": "col_0",
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 11
+      "_refreshTrigger": 13
     },
     "vizSampling": {
       "autoRefreshSample": false,
