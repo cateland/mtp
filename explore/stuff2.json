@@ -61,7 +61,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 13
+      "_refreshTrigger": 15
     },
     "vizSampling": {
       "autoRefreshSample": false,
