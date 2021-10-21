@@ -126,7 +126,7 @@
       }
     }
   },
-  "name": "perftest5",
+  "name": "perftest5 (main)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -182,11 +182,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1634808474454
+    "lastModifiedOn": 1634808477797
   },
   "creationTag": {
     "versionNumber": 0,
@@ -195,7 +195,7 @@
     },
     "lastModifiedOn": 1632235055533
   },
-  "shortDesc": "The project *perftest5* was created by Local administrator on Sep 21st 2021",
+  "shortDesc": "The project *perftest5* was created by Local administrator on Sep 21st 2021\nThe project *PERFTEST5_MAIN* was copied from *PERFTEST5* by Local administrator on Oct 21st 2021",
   "tags": [
     "duplicated"
   ],
