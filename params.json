@@ -9,6 +9,7 @@
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
   "owner": "admin",
+  "permissionsVersion": "LEGACY",
   "permissions": [],
   "additionalDashboardUsers": {
     "users": []
@@ -21,6 +22,7 @@
       "zonesGraphConnectZones": true
     },
     "gitCommitMode": "AUTO",
+    "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
       "integrations": []
@@ -178,6 +180,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1634808461281
   },
   "creationTag": {
     "versionNumber": 0,
